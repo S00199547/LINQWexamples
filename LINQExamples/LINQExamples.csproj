@@ -70,7 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameObjects.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="..\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
